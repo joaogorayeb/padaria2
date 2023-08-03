@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+nav{
+    background-color: bisque;
+    border-bottom: 1px solid #222;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 2%;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+h3 {
+    padding-top: 80px;
+}
+.produto {
+    padding: 10px;
+    transition: .5s;
+}
+.produto:hover { 
+    background-color: #f7da5d;
+    transition: .5s;
+}
+.img-produto {
+    width: 100%;
+}
+.nome-produto{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 0;
+}
+.descricao{
+    line-height: 1;
+    height: 50px;
+    overflow: hidden;
+}
+.preco{
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+button{
+    width: 100%;
+}
+
